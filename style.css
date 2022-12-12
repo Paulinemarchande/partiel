@@ -1,0 +1,353 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: red;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.poire{
+    height: 70px;
+    width: 70px;
+    margin-top: 30px;
+}
+
+.menu{
+    color: white;
+    font-size: 150%;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.fondLyon{
+    background-image: url("./images/15.png");
+    height: 800px;
+}
+
+.punshline{
+    background-color: grey;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.mcdo{
+    height: 250px;
+    width: 220px;
+}
+.coca{
+    height: 250px;
+    width: 330px;
+}
+.voiture{
+    height: 250px;
+    width: 220px;
+}
+
+.images{
+    height: fit-content;
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+}
+
+.premier{
+    height: 70px;
+    width: 400px;
+    background-color: green;
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow: none;
+}
+
+.premier p{
+    color: white;
+    font-size: 180%;
+    text-transform: uppercase;
+}
+
+
+.annonces p{
+    font-size: 150%;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.nouvelleAnnonce{
+    border: lightgrey solid;
+    border-radius: 2%;
+    height: 450px;
+    width: 300px;
+}
+
+.plus{
+    height: 220px;
+    width: 300px;
+}
+
+.titre{
+    display: flex;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.paragraphe p{
+    margin: 0%;
+    font-size: 90%;
+    display: flex;
+    text-align: center;
+    font-weight: normal;
+}
+
+.vert{
+    height: 40px;
+    width: 150px;
+    background-color: green;
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.vert p{
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+.netflix{
+    border: lightgrey solid;
+    border-radius: 2%;
+    height: 450px;
+    width: 300px;
+}
+
+.imgNetflix{
+    height: 220px;
+    width: 300px;
+}
+
+.john{
+    border: lightgrey solid;
+    border-radius: 2%;
+    height: 450px;
+    width: 300px;
+}
+
+.imgJohn{
+    height: 220px;
+    width: 300px;
+}
+
+.cartes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deezer{
+    border: lightgrey solid;
+    border-radius: 2%;
+    height: 450px;
+    width: 300px;
+}
+
+.imgDeezer{
+    height: 220px;
+    width: 300px;
+}
+
+.mcdonald{
+    border: lightgrey solid;
+    border-radius: 2%;
+    height: 450px;
+    width: 300px;
+}
+
+.imgMcdo{
+    height: 220px;
+    width: 300px;
+}
+
+.jantes{
+    border: lightgrey solid;
+    border-radius: 2%;
+    height: 450px;
+    width: 300px;
+}
+
+.imgJantes{
+    height: 220px;
+    width: 300px;
+}
+
+.cartes2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.rectangleGris{
+    padding-top: 200px;
+    width: auto;
+    height: 800px;
+    background-color: lightgrey;
+}
+
+.pourcentages{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.publications{
+    height: 450px;
+    width: 320px;
+    background-color: white;
+    border: grey solid;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chiffre{
+    width: 320px;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.chiffre p{
+    display: flex;
+    justify-content: center;
+}
+
+.explication{
+    font-size: 90%;
+    margin: 0%;
+    width: 320px;
+    display: flex;
+}
+
+.explication p{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    font-size: 90%;
+    margin-top: -10px;
+    margin-right: 50px;
+    font-weight: normal;
+}
+
+.benefices{
+    height: 450px;
+    width: 320px;
+    background-color: white;
+    border: grey solid;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.investissement{
+    height: 450px;
+    width: 320px;
+    background-color: white;
+    border: grey solid;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lorem{
+    margin-top: 100px ;
+}
+
+.lorem h2{
+    display: flex;
+    justify-content: center;
+}
+
+.lorem p{
+    width: 650px;
+    margin-left: 400px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.confiance{
+    display: flex;
+    justify-content: center;
+}
+
+.gauche{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 190px;
+    width: 600px;
+}
+
+.edf{
+    height: 70px;
+    width: 100px;
+}
+
+.footer h2{
+    display: flex;
+    justify-content: center;
+}
+
+.footer p{
+    font-weight: normal;
+    display: flex;
+}
+
+.monsanto{
+    height: 70px;
+    width: 180px;
+}
+
+.phrasesImages{
+    display: flex;
+}
+
+.reseaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reseaux img{
+    text-decoration: none;
+    height: 85px;
+    width: 85px;
+    margin: 30px;
+}
+
+#bas{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#bas p{
+    font-size: 80%;
+    font-weight: normal;
+    height: fit-content;
+}
